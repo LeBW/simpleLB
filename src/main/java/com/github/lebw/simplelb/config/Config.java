@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class Config {
 
-    @Value("${com.github.lebw.simplelb.backEnds}")
+    @Value(value = "${com.github.lebw.simplelb.backEnds}")
     private String backEndURLs;
 
     @Bean
